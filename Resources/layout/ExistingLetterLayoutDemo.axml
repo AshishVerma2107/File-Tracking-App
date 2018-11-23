@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	
+
+	<android.support.design.widget.TextInputLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <android.support.design.widget.TextInputEditText
+                           android:id="@+id/searchQr"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:textSize="25dp"
+                           android:textStyle="normal"
+                           android:maxLength="15"
+			android:padding="5dp"
+			android:hint="Enter Qr Number"
+		     android:drawableRight="@drawable/search"/>
+        </android.support.design.widget.TextInputLayout>
+
+	<ScrollView
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+	<android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/qrdetail"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          android:textSize="15dp"
+                          android:textStyle="normal"
+			              android:focusable="false"
+                          android:padding="10dp"
+                          android:hint="Scan QR Code Detail"/>
+                    </android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+         android:id="@+id/sender"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+	     android:textSize="15dp"
+         android:textStyle="normal"
+         android:maxLength="50"
+         android:padding="10dp"
+         android:hint="Sender Name"/>
+		</android.support.design.widget.TextInputLayout>
+	<android.support.design.widget.TextInputLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/addressee"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                          android:maxLength="50"
+                          android:padding="10dp"
+                          android:hint="Addressee Name"/>
+                    </android.support.design.widget.TextInputLayout>
+	 <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/subject"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                         
+                          android:padding="10dp"
+                          android:hint="Subject"/>
+                    </android.support.design.widget.TextInputLayout>
+	
+      <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/DateLetter"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          android:clickable="true"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                          
+                          android:padding="10dp"
+                          android:hint="LetterDate"/>
+			 </android.support.design.widget.TextInputLayout>
+	
+	 <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/medium"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                          
+                          android:padding="10dp"
+                          android:hint="Medium"/>
+                    </android.support.design.widget.TextInputLayout>
+	 <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/datescanning"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                         android:clickable="true"
+				          
+                          android:padding="10dp"
+                          android:hint="ScanningDate"/>
+			 </android.support.design.widget.TextInputLayout>
+	 <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <android.support.design.widget.TextInputEditText
+                          android:id="@+id/syncdate"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+				          
+                          android:textSize="15dp"
+                          android:textStyle="normal"
+                         android:clickable="true"
+				          
+                          android:padding="10dp"
+                          android:hint="SyncDate"/>
+                 
+			</android.support.design.widget.TextInputLayout>
+
+		 <ImageView
+        android:id="@+id/letterimage"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+		 android:padding="20dp" /> 
+	<Button
+		android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textSize="18dp"
+		android:gravity="center"
+		android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:text="Send" />
+			</LinearLayout>
+			</ScrollView>
+</LinearLayout>

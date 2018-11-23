@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:paddingLeft = "@dimen/activity_horizontal_margin"
+	android:paddingRight = "@dimen/activity_horizontal_margin"
+	android:paddingTop = "@dimen/activity_horizontal_margin"
+	android:paddingBottom = "@dimen/activity_horizontal_margin">
+	<TextView
+		 android:id="@+id/qrdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:padding="10dp" 
+        android:text="Qr Details" />
+	<TextView
+		 android:id="@+id/sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:padding="10dp" 
+        android:text="Sender Name" />
+	 <TextView
+		 android:id="@+id/addressee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:padding="10dp" 
+        android:text="Addressee Name" />
+	 <TextView
+		 android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10dp" 
+        android:layout_centerInParent="true"
+        android:text="Subject" />
+	
+      <TextView
+		 android:id="@+id/DateLetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10dp" 
+        android:layout_centerInParent="true"
+        android:text="Letter Date" />
+	
+	 <TextView
+		 android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10dp" 
+        android:layout_centerInParent="true"
+        android:text="Medium" />
+	 <TextView
+		 android:id="@+id/scanningDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10dp" 
+        android:layout_centerInParent="true"
+        android:text="Scanning Date" />
+	 <TextView
+		 android:id="@+id/syncDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10dp" 
+        android:layout_centerInParent="true"
+        android:text="Sync Date" />
+	 
+
+</LinearLayout>
